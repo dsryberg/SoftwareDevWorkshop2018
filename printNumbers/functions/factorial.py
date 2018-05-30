@@ -27,3 +27,14 @@ def Factorial(n):
     :return:   n!
     '''
     return(math.factorial(n))
+    
+    
+def log(n):
+	'''
+	Calculate the log of your love!!
+	
+	n as level of your love
+	not defined for 0
+	'''
+	
+	return(math.log(n))
