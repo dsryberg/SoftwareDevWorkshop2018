@@ -53,7 +53,7 @@ class Parameters(object):
         if n <= 0 or n > CONST_MAX_OPERAND_VAL:
             print('Error: Operand out of range: 0 < <operand> <=', CONST_MAX_OPERAND_VAL)
             print('       The default value ( n =', CONST_DEF_OPERAND_VAL, ') is used.')
-            print('')
+            print('Tell the Cap\'n I aint gunna make it... ')
             n = CONST_DEF_OPERAND_VAL
         self.__operand = n
 
@@ -66,8 +66,8 @@ class Parameters(object):
         self.__functionIndex = value
 
     def PrintParameters(self):
-        print('Following Parameters are in use:')
+        print('Yarr matey, the following Parameters are in use:')
         print('--------------------------------')
-        print('Function Code: ', self.functionIndex)
-        print('Operand value: ' + str(self.operand))
+        print('Land\'lubbin Function Code: ', self.functionIndex)
+        print('Swash\'bucklin Operand value: ' + str(self.operand))
         print('')
