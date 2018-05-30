@@ -37,3 +37,17 @@ def FibonacciSequence(n):
     for i in range(n):
         sequence.append(FibonacciRecursion(i))
     return (sequence)
+    
+    
+def DemoFunction(n,b):
+	'''
+	n as param for factoral
+	b as shift value along y value
+	
+	'''
+	
+	
+	number=n**n + n-b
+	
+	return(number)
+	    
