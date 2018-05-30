@@ -46,7 +46,7 @@ def DemoFunction(n,b):
 	
 	'''
 	
-	
+        print("Hoist the main sails!")	
 	number=n**n + n-b
 	
 	return(number)
